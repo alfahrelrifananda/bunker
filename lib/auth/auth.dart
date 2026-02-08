@@ -392,29 +392,9 @@ class _AuthScreenState extends State<AuthScreen>
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     const SizedBox(height: 48),
-
-                    // App icon with Material You style
-                    Center(
-                      child: Container(
-                        width: 80,
-                        height: 80,
-                        decoration: BoxDecoration(
-                          color: theme.colorScheme.primaryContainer,
-                          shape: BoxShape.circle,
-                        ),
-                        child: Icon(
-                          Icons.shield_outlined,
-                          size: 40,
-                          color: theme.colorScheme.onPrimaryContainer,
-                        ),
-                      ),
-                    ),
-
-                    const SizedBox(height: 24),
-
                     // App name
                     Text(
-                      'bunker',
+                      'Bunker',
                       textAlign: TextAlign.center,
                       style: theme.textTheme.headlineLarge?.copyWith(
                         fontWeight: FontWeight.w600,
@@ -428,7 +408,7 @@ class _AuthScreenState extends State<AuthScreen>
                     Text(
                       _authMessage.isNotEmpty
                           ? _authMessage
-                          : 'Your secure password manager',
+                          : 'Simple and offline first password manager',
                       textAlign: TextAlign.center,
                       style: theme.textTheme.bodyLarge?.copyWith(
                         color: theme.colorScheme.onSurfaceVariant,

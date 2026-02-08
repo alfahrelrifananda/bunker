@@ -402,7 +402,7 @@ class _HomeScreenState extends State<HomeScreen> {
             size: 28,
           ),
         ),
-        title: const Text('About bunker'),
+        title: const Text('About Bunker'),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -438,8 +438,8 @@ class _HomeScreenState extends State<HomeScreen> {
               Navigator.pop(context);
               showLicensePage(
                 context: context,
-                applicationName: 'bunker',
-                applicationVersion: '1.1.0',
+                applicationName: 'Bunker',
+                applicationVersion: '1.0.0',
               );
             },
             child: const Text('Licenses'),
