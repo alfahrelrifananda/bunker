@@ -2,53 +2,57 @@
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![License](https://img.shields.io/github/license/alfahrelrifananda/bunker?style=for-the-badge)](LICENSE)
 
-**[Bunker](https://github.com/alfahrelrifananda/bunker)** is a simple, intuitive password manager app built with Flutter. Securely store, manage, and access your passwords with ease.
+# Bunker
+
+A simple password manager built with Flutter. Store and manage your passwords securely.
 
 [![Get it on GitHub](https://img.shields.io/badge/Get%20it%20on-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alfahrelrifananda/bunker/releases)
 
-## **Features**
+## Features
 
-- **Password Management** – Create, edit, and delete passwords securely
-- **User-Friendly Interface** – Intuitive design for easy navigation
-- **Privacy-First** – Your data stays on your device
+- Create, edit, and delete passwords
+- Straightforward interface
+- Your data stays on your device
 
-## **Tech Stack**
+## Tech Stack
 
 - **Language:** Dart
 - **Framework:** Flutter
 - **UI:** Material Design 3
 
-## **Getting Started**
+## Getting Started
 
-### **Prerequisites**
+### Prerequisites
+
 - [Flutter SDK](https://flutter.dev/docs/get-started/install) (latest stable version)
-- Android Studio / VS Code with Flutter extensions
+- Android Studio or VS Code with Flutter extensions
 - Android device or emulator (API 24+)
 
-### **Installation**
+### Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/alfahrelrifananda/bunker.git
    cd bunker
    ```
+
 2. Install dependencies:
    ```bash
    flutter pub get
    ```
+
 3. Run the app:
    ```bash
    flutter run
    ```
 
-## **Contributing**
-Contributions are what make the open-source community thrive! Feel free to:
+## Contributing
+
+If you'd like to contribute:
 - Fork the project
 - Open issues for bugs or feature requests
-- Submit pull requests with improvements
+- Submit pull requests
 
-## **License**
-This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for more details.
+## License
 
-[release-badge]: https://img.shields.io/github/v/release/alfahrelrifananda/bunker?style=for-the-badge
-[flutter-badge]: https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
-[license-badge]: https://img.shields.io/github/license/alfahrelrifananda/bunker?style=for-the-badge
+This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for details.

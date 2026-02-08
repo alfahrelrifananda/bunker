@@ -389,19 +389,6 @@ class _HomeScreenState extends State<HomeScreen> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        icon: Container(
-          width: 56,
-          height: 56,
-          decoration: BoxDecoration(
-            color: theme.colorScheme.primaryContainer,
-            shape: BoxShape.circle,
-          ),
-          child: Icon(
-            Icons.shield_outlined,
-            color: theme.colorScheme.onPrimaryContainer,
-            size: 28,
-          ),
-        ),
         title: const Text('About Bunker'),
         content: Column(
           mainAxisSize: MainAxisSize.min,
@@ -413,7 +400,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             const SizedBox(height: 16),
             Text(
-              'Version 1.1.0',
+              'Version 1.0.0',
               style: theme.textTheme.bodySmall?.copyWith(
                 color: theme.colorScheme.onSurfaceVariant,
               ),
