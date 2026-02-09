@@ -14,6 +14,14 @@ A simple password manager built with Flutter. Store and manage your passwords se
 - Straightforward interface
 - Your data stays on your device
 
+## Screenshots
+
+<div style="display: flex; justify-content: space-around; gap: 10px;">
+  <img src="./screenshot/screenshot1.png" width="200">
+  <img src="./screenshot/screenshot2.png" width="200">
+  <img src="./screenshot/screenshot3.png" width="200">
+</div>
+
 ## Tech Stack
 
 - **Language:** Dart
