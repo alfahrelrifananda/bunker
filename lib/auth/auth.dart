@@ -368,7 +368,7 @@ class _AuthScreenState extends State<AuthScreen>
                   width: 20,
                   child: CircularProgressIndicator(strokeWidth: 2),
                 )
-              : const Text('Unlock with biometrics'),
+              : const Text('Unlock'),
         ),
       ],
     );
